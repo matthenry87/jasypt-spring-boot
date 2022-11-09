@@ -73,6 +73,11 @@ public class JasyptEncryptorConfigurationProperties {
      */
     private String bean = "jasyptStringEncryptor";
 
+    public void setPassword(String password) {
+
+        this.password = password;
+    }
+
     /**
      * Master Password used for Encryption/Decryption of properties.
      *
